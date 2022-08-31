@@ -37,7 +37,7 @@ const Home: React.FC<IHome> = () => {
               </p>
               <div className="btns">
                 <div className="btn btnStyles">50 % OFF For 6 Months</div>
-                <Link to={'http://varvarashcherbyna7.github.io/survey'}>
+                <Link to={'/survey'}>
                   <div className="btn btnColor">No, thanks! I’ll cancel</div>
                 </Link>
               </div>
