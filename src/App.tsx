@@ -12,8 +12,8 @@ const App: React.FC<IApp> = () => {
     <div className="containerApp">
       <div className="wrapperApp">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/survey" element={<CancellationSurvey />} />
+          <Route path="/test_survey/" element={<Home />} />
+          <Route path="/test_survey/survey" element={<CancellationSurvey />} />
         </Routes>
       </div>
     </div>
