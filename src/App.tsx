@@ -17,7 +17,7 @@ const App: React.FC<IApp> = () => {
             element={<Home />}
           />
           <Route
-            path="http://varvarashcherbyna7.github.io/test_survey/survey"
+            path="http://varvarashcherbyna7.github.io/survey"
             element={<CancellationSurvey />}
           />
         </Routes>
