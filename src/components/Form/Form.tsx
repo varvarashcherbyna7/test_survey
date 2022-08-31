@@ -251,7 +251,7 @@ const Form: React.FC<IForm> = () => {
         />
 
         <div className="btns">
-          <Link to={'/'}>
+          <Link to={'http://varvarashcherbyna7.github.io/test_survey'}>
             <div className="btnIcon">
               <div className="btnIcon_icon">
                 <Icon icon="akar-icons:arrow-left" />

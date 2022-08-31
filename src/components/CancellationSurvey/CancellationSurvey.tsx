@@ -10,7 +10,10 @@ const CancellationSurvey: React.FC<ICancellationSurvey> = () => {
   return (
     <div className="containerCancellationSurvey">
       <div className="wrapper">
-        <Link to={'/'} className="cancelLink">
+        <Link
+          to={'http://varvarashcherbyna7.github.io/test_survey'}
+          className="cancelLink"
+        >
           <div className="cancelLink_arrowContainer">
             <div className="arrow" />
           </div>
